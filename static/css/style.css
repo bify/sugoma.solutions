@@ -225,3 +225,15 @@
 	color: #fff;
 	text-decoration: none;
 	}
+
+
+#button1, #button2{
+width: 200px;
+height: 40px;
+color:#333
+}
+
+#butn{
+    margin: 0 auto;
+    display: block;
+}
