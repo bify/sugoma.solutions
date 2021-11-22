@@ -63,13 +63,24 @@
 	margin: 0;
 }
 
+#title h7 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 30pt;
+	font-weight: normal;
+	color: #eee;
+	height: 88px;
+}
+W
+
 #title p {
 	margin: 0;
 	padding: 0;
 }
 
 #title span {
-	color: #6cc312;
+	color: #00c5f6;
 }
 
 #header {
@@ -227,7 +238,7 @@
 	}
 
 
-#button1, #button2, #button3{
+#button1, #button2, #button3, button4{
 width: 200px;
 height: 40px;
 color:#333
@@ -236,4 +247,13 @@ color:#333
 #butn{
     margin: 0 auto;
     display: block;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
